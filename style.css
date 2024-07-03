@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:ital@1&family=Dancing+Script:wght@400;500;600&family=Inter+Tight:wght@100&family=Inter:wght@200&family=Libre+Franklin:wght@800&family=Phudu:wght@700&family=Roboto+Condensed&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html{
+     font-size: 10px;
+}
+
+h1{
+
+    color: white;
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+.cursor {
+
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    /* The mix-blend-mode CSS property sets how an element's content should blend with the content of the element's parent  */
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
+}
